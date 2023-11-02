@@ -5,39 +5,32 @@ public class Q5 implements Exam, Classify {
     private int mark;
     private int average;
 
-    // Constructor
     public Q5(int mark, int average) {
         this.mark = mark;
         this.average = average;
     }
 
-    // Getter for mark
     public int getMark() {
         return mark;
     }
 
-    // Setter for mark
     public void setMark(int mark) {
         this.mark = mark;
     }
 
-    // Getter for average
     public int getAverage() {
         return average;
     }
 
-    // Setter for average
     public void setAverage(int average) {
         this.average = average;
     }
 
-    // Implement the Pass method from Exam interface
     @Override
     public boolean Pass(int mark) {
         return mark >= 50;
     }
 
-    // Implement the Division method from Classify interface
     @Override
     public String Division(int average) {
         if (average >= 60) {
@@ -49,7 +42,6 @@ public class Q5 implements Exam, Classify {
         }
     }
 
-    // Override the toString() method to provide a custom string representation
     @Override
     public String toString() {
         return "Mark: " + mark + ", Average: " + average;
@@ -57,6 +49,9 @@ public class Q5 implements Exam, Classify {
 
     public static void main(String[] args) {
         try {
+            System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
             Q5 result = new Q5(75, 65);
             System.out.println("Pass: " + result.Pass(result.getMark()));
             System.out.println("Division: " + result.Division(result.getAverage()));

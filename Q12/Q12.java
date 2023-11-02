@@ -2,6 +2,9 @@ import java.util.Scanner;
 import Mypackage.Bill;
 public class Q12 {
     public static void main(String[] args) {
+        System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
         Scanner scanner = new Scanner(System.in);
 
         try {

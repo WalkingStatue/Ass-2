@@ -37,7 +37,7 @@ public class Student extends Person {
     }
 
     public void display() {
-        super.display(); // Call the display method of the base class
+        super.display(); 
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Address: " + address);
         System.out.println("Percentage: " + percentage);

@@ -9,6 +9,9 @@ import java.util.Scanner;
 public class Q1 {
     public static void main(String[] args) {
           try {
+            System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
         ArrayList<Student> students = new ArrayList<>();
         ArrayList<Employee> employees = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);

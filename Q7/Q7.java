@@ -7,12 +7,14 @@ import java.util.Scanner;
 
 public class Q7 {
     public static void main(String[] args) {
+        System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
         Scanner scanner = new Scanner(System.in);
 
         try {
             Figure figure1, figure2, figure3, figure4;
 
-            // Create and initialize figure1
             System.out.print("Enter 'R' for Rectangle or 'C' for Circle for figure1: ");
             char choice1 = scanner.next().charAt(0);
             if (choice1 == 'R' || choice1 == 'r') {
@@ -28,8 +30,6 @@ public class Q7 {
                 System.out.println("Invalid choice. Please enter 'R' or 'C'.");
                 return;
             }
-
-            // Create and initialize figure2
             System.out.print("Enter 'R' for Rectangle or 'C' for Circle for figure2: ");
             char choice2 = scanner.next().charAt(0);
             if (choice2 == 'R' || choice2 == 'r') {
@@ -46,7 +46,6 @@ public class Q7 {
                 return;
             }
 
-            // Create and initialize figure3
             System.out.print("Enter 'R' for Rectangle or 'C' for Circle for figure3: ");
             char choice3 = scanner.next().charAt(0);
             if (choice3 == 'R' || choice3 == 'r') {
@@ -63,7 +62,6 @@ public class Q7 {
                 return;
             }
 
-            // Create and initialize figure4
             System.out.print("Enter 'R' for Rectangle or 'C' for Circle for figure4: ");
             char choice4 = scanner.next().charAt(0);
             if (choice4 == 'R' || choice4 == 'r') {
@@ -79,14 +77,11 @@ public class Q7 {
                 System.out.println("Invalid choice. Please enter 'R' or 'C'.");
                 return;
             }
-
-            // Call area() for all figures
             System.out.println("Area of figure1: " + figure1.area());
             System.out.println("Area of figure2: " + figure2.area());
             System.out.println("Area of figure3: " + figure3.area());
             System.out.println("Area of figure4: " + figure4.area());
 
-            // Call perimeter() for Circle objects only
             if (figure1.getClass() == Circle.class) {
                 System.out.println("Perimeter of figure1: " + ((Circle) figure1).perimeter());
             }

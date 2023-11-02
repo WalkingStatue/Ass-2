@@ -9,6 +9,9 @@ public class Q6 {
         Scanner scanner = new Scanner(System.in);
 
         try {
+            System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
             System.out.print("Enter account number for Savings Account: ");
             int savingsAccountNo = scanner.nextInt();
             System.out.print("Enter interest rate for Savings Account: ");

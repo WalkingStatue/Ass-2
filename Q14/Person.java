@@ -8,8 +8,7 @@ public abstract class Person {
         this.name = name;
         this.salary = salary;
     }
-
-    // Abstract method
+    
     public abstract void hikeSalary(double percentage);
 
     public void displayData() {

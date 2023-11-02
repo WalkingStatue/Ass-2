@@ -35,7 +35,7 @@ public class Supplier {
                 System.out.println("Invalid input for price. Please enter a valid number.");
                 price_of_product[i] = 0.0;
             }
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
         }
     }
 }

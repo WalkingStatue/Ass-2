@@ -4,13 +4,15 @@ import java.util.Scanner;
 
 public class Q9 {
     public static void main(String[] args) {
+        System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
         Scanner scanner = new Scanner(System.in);
 
         try {
-            // Input supplier information
             System.out.print("Enter Supplier ID: ");
             int supplierId = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline
+            scanner.nextLine(); 
 
             System.out.print("Enter Supplier Name: ");
             String supplierName = scanner.nextLine();
@@ -27,7 +29,7 @@ public class Q9 {
 
                 System.out.print("Enter Price of Product " + (i + 1) + ": ");
                 productPrices[i] = scanner.nextDouble();
-                scanner.nextLine(); // Consume the newline
+                scanner.nextLine(); 
             }
 
             Supplier supplier = new Supplier(supplierId, supplierName, address, productNames, productPrices);

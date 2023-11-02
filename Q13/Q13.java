@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Q13 {
     public static void main(String[] args) {
+        System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter Supplier details:");

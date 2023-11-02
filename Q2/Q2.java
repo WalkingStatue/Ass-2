@@ -5,6 +5,9 @@ import MyPackage.Student;
 public class Q2 {
     public static void main(String[] args) {
         try {
+            System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
             Employee employee = new Employee("John", "Doe", 30, 101, "Manager", 60000);
             Student student = new Student("Jane", "Smith", 20, 201, "123 Main St", 85.5);
 

@@ -46,6 +46,9 @@ public class Rectangle {
 
     public static void main(String[] args) {
         try {
+            System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
             Rectangle rectangle1 = new Rectangle(5.0, 3.0);
             Rectangle rectangle2 = new Rectangle();
             Rectangle rectangle3 = new Rectangle(rectangle1);

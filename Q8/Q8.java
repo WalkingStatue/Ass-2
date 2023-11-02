@@ -5,13 +5,16 @@ import java.util.Scanner;
 
 public class Q8{
     public static void main(String[] args) {
+        System.out.println("Name: Dhruv Saija");
+            System.out.println("Roll No: 3159");
+            System.out.println("Division: B");
         Scanner scanner = new Scanner(System.in);
 
         try {
-            // Input student information
+            
             System.out.print("Enter Student ID: ");
             int studentId = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline
+            scanner.nextLine(); 
 
             System.out.print("Enter Student Name: ");
             String studentName = scanner.nextLine();
@@ -29,10 +32,10 @@ public class Q8{
             System.out.println("\nStudent Information:");
             System.out.println(student);
 
-            // Input subject information
+            
             System.out.print("\nEnter Subject ID: ");
             int subjectId = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline
+            scanner.nextLine(); 
 
             System.out.print("Enter Subject Name: ");
             String subjectName = scanner.nextLine();

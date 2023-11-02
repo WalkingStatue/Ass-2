@@ -1,5 +1,4 @@
 package MyPackage;
-
 public class Account {
     private int accountNo;
     protected double balance;

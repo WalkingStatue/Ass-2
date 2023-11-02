@@ -8,8 +8,8 @@ public class Q2 {
             System.out.println("Name: Dhruv Saija");
             System.out.println("Roll No: 3159");
             System.out.println("Division: B");
-            Employee employee = new Employee("John", "Doe", 30, 101, "Manager", 60000);
-            Student student = new Student("Jane", "Smith", 20, 201, "123 Main St", 85.5);
+            Employee employee = new Employee("Dhruv", "Saija", 20, 101, "Manager", 60000);
+            Student student = new Student("Harsh", "Panchal", 20, 201, "D-7 Rajnigandha Flats", 85.5);
 
             System.out.println("Employee Information:");
             employee.display();

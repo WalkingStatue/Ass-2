@@ -9,8 +9,8 @@ public class Q14 {
         System.out.println("Division: B");
         Person[] people = new Person[2];
 
-        Employee employee = new Employee("John", 50000);
-        Manager manager = new Manager("Alice", 80000);
+        Employee employee = new Employee("Harsh", 40000);
+        Manager manager = new Manager("Manager", 80000);
 
         people[0] = employee;
         people[1] = manager;

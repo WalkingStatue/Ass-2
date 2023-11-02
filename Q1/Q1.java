@@ -28,11 +28,11 @@ public class Q1 {
             String address = scanner.nextLine();
             System.out.print("Age: ");
             int age = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             System.out.print("Roll No: ");
             int rollNo = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
             System.out.print("Division: ");
             String division = scanner.nextLine();
             System.out.print("Date of Birth: ");
@@ -54,23 +54,22 @@ public class Q1 {
             String address = scanner.nextLine();
             System.out.print("Age: ");
             int age = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
 
             System.out.print("Employee ID: ");
             int empId = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine();
             System.out.print("DA: ");
             double da = scanner.nextDouble();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
             System.out.print("HRA: ");
             double hra = scanner.nextDouble();
-            scanner.nextLine(); // Consume the newline character
+            scanner.nextLine(); 
 
             Employee employee = new Employee(firstName, middleName, lastName, address, age, empId, da, hra);
             employees.add(employee);
         }
 
-        // Sort students and employees and print the results
         Collections.sort(students);
         System.out.println("Sorted Students by Roll No:");
         for (Student student : students) {
@@ -83,7 +82,6 @@ public class Q1 {
             System.out.println(employee);
         }
          } catch (Exception e) {
-            // Handle any exceptions that may occur during execution
             e.printStackTrace();
         }
     }
